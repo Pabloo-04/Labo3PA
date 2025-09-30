@@ -2,7 +2,15 @@
 #include "Adafruit_MQTT.h"
 #include "Adafruit_MQTT_Client.h"
 
+/************************* WiFi Access Point *********************************/
+#define WLAN_SSID "wifi"
+#define WLAN_PASS "12345678"
 
+/************************* Adafruit.io Setup *********************************/
+#define AIO_SERVER "io.adafruit.com"
+#define AIO_SERVERPORT 1883 // use 8883 for SSL
+#define AIO_USERNAME "Pabloo04"
+#define AIO_KEY "aio_gCMu80yKRr9SUrzmSDkdev9rmuPn"
 #define temp 32
 /************ Global State (you don't need to change this!) ******************/
 //  Create an ESP8266 WiFiClient class to connect to the MQTT server.
